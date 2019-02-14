@@ -1,0 +1,37 @@
+
+
+h1{color: #09c;
+    margin: 50px auto;
+    text-align: center;}
+
+.con{
+        width: 60%;
+    margin: 50px auto;
+    background-color: #5b0808;
+    border: 10px solid #d31919;
+    padding: 20px;
+}
+
+.form-group input{
+    border: none;
+/*    border-bottom: 2px solid #f00;*/
+}
+
+label{color: #ff0101;
+    font-size: 20px;
+    text-transform: capitalize;}
+
+span{
+    padding: 10px;
+    color: #f00;
+/*    background-color: #cca;*/
+    border: 1px dot #f00;
+}
+
+.btn-primary {
+    text-align: center;
+    color: #fff;
+    background-color: #d80202ed;
+    border-color: #d80202;
+    width: 300px;
+    margin: auto;}

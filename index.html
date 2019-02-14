@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+
+    <title>REGEX</title>
+  </head>
+  <body>
+    <h1>form validation</h1>
+      
+      <div class="con">
+          <form>
+              
+              <div class="form-group">
+                <label for="name">name</label>
+                <input type="text" class="form-control" id="name" placeholder="enter your name" onkeyup="reg_name()" />
+                  <span id="mes_name"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"onkeyup="reg_mail()">
+                <span id="mes_mail"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" class="form-control" id="pass" placeholder="Password" onkeyup="reg_pass()">
+                  <span id="mes_pass"></span>
+              </div>
+              
+             <div class="form-group">
+                <label for="phone">phone</label>
+                <input type="number" class="form-control" id="phone" placeholder="enter your phone" onkeyup="reg_phone()">
+                  <span id="mes_phone"></span>
+              </div>
+
+
+              <button type="submit" class="btn btn-primary" id="btn">Submit</button>
+    </form>
+
+         
+      </div>
+    
+<!--    <script src="js/bootstrap.min.js" ></script>-->
+    <script src="js/style.js" ></script>
+   
+  </body>
+</html>
